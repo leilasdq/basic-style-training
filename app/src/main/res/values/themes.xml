@@ -1,0 +1,36 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Base.Theme.StyleTraining" parent="Theme.MaterialComponents.DayNight.DarkActionBar" >
+
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <item name="android:textViewStyle">@style/DefaultTextStyle</item>
+        <item name="widget.TextView.small">@style/SmallTextStyle</item>
+        <item name="mainLayoutMargin">@dimen/margin_8dp</item>
+
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="Theme.StyleTraining" parent="Base.Theme.StyleTraining">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Customize your theme here. -->
+
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="DefaultTextStyle" parent="TextAppearance.AppCompat.Body1" >
+        <item name="android:textSize">@dimen/text_size_30</item>
+    </style>
+
+    <style name="SmallTextStyle" parent="TextAppearance.AppCompat.Body2" >
+        <item name="android:textSize">@dimen/text_size_16</item>
+    </style>
+
+</resources>

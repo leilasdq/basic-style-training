@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.StyleTraining" parent="Base.Theme.StyleTraining">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_200</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/black</item>
+
+        <!-- Customize your theme here. -->
+
+        <item name="android:textColor">@color/white</item>
+    </style>
+</resources>
