@@ -3,5 +3,15 @@
 
     <attr name="widget.TextView.small" format="reference" />
     <attr name="mainLayoutMargin" format="dimension" />
+    
+    <!-- compound view defStyleAttrs -->
+    <declare-styleable name="Base.Theme.StyleTraining" >
+        <attr name="titleButtonStyle" format="reference" />
+    </declare-styleable>
+    
+    <declare-styleable name="TitleButton">
+        <attr name="android:textStyle" />
+        <attr name="button_background" format="color|reference" />
+    </declare-styleable>
 
 </resources>
