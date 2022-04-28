@@ -2,4 +2,8 @@
     <string name="app_name">style training</string>
 
     <string name="title_smaller_text">I Am smaller one</string>
+    <string name="title_test_one">Test no.1</string>
+    <string name="title_test_two">Test no.2</string>
+    <string name="title_default_btn_text">default one</string>
+    <string name="title_yellow_btn_text">yellow one</string>
 </resources>

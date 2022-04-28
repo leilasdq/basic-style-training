@@ -39,16 +39,16 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:layout_marginTop="@dimen/margin_8dp"
-            android:text="test no.1"
-            app:button_text="default one" />
+            android:text="@string/title_test_one"
+            app:button_text="@string/title_default_btn_text" />
 
         <com.example.styletraining.widget.ButtonWithTextCompoundView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:layout_marginTop="@dimen/margin_8dp"
-            android:text="test no.2"
-            app:button_text="yellow one"
+            android:text="@string/title_test_two"
+            app:button_text="@string/title_yellow_btn_text"
             android:backgroundTint="@color/yellow_titled_button_background"/>
 
     </LinearLayout>
