@@ -10,8 +10,10 @@
     </declare-styleable>
     
     <declare-styleable name="TitleButton">
-        <attr name="android:textStyle" />
-        <attr name="button_background" format="color|reference" />
+        <attr name="android:textViewStyle" />
+        <attr name="android:text" />
+        <attr name="button_text" format="string|reference" />
+        <attr name="android:backgroundTint" />
     </declare-styleable>
 
 </resources>

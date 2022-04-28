@@ -31,23 +31,26 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:paddingTop="@dimen/margin_8dp"
         android:orientation="horizontal" >
 
         <com.example.styletraining.widget.ButtonWithTextCompoundView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:layout_marginTop="@dimen/margin_8dp"/>
+            android:layout_marginTop="@dimen/margin_8dp"
+            android:text="test no.1"
+            app:button_text="default one" />
 
         <com.example.styletraining.widget.ButtonWithTextCompoundView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:layout_marginTop="@dimen/margin_8dp"/>
+            android:layout_marginTop="@dimen/margin_8dp"
+            android:text="test no.2"
+            app:button_text="yellow one"
+            android:backgroundTint="@color/yellow_titled_button_background"/>
 
     </LinearLayout>
-
-
-
 
 </LinearLayout>

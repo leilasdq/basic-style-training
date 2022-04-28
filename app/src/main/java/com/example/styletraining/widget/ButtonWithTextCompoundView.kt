@@ -2,6 +2,7 @@ package com.example.styletraining.widget
 
 import android.annotation.SuppressLint
 import android.content.Context
+import android.content.res.ColorStateList
 import android.graphics.drawable.Drawable
 import android.util.AttributeSet
 import android.view.Gravity
@@ -14,6 +15,7 @@ import android.widget.TextView
 import androidx.core.content.withStyledAttributes
 import androidx.core.widget.TextViewCompat
 import com.example.styletraining.R
+import org.w3c.dom.Text
 
 @SuppressLint("CustomViewStyleable")
 class ButtonWithTextCompoundView @JvmOverloads constructor(
@@ -41,15 +43,30 @@ class ButtonWithTextCompoundView @JvmOverloads constructor(
         context.withStyledAttributes(attrs, R.styleable.TitleButton) {
             for (i in 0 until indexCount) {
                 val attr: Int = getIndex(i)
-                //if (attr == R.styleable.TitleButton_button_background) buttonBack = getDrawable(attr)
+                if (attr == R.styleable.TitleButton_android_backgroundTint) buttonBack = getColorStateList(attr)
+                if (attr == R.styleable.TitleButton_android_text) titleText = getString(attr)
+                if (attr == R.styleable.TitleButton_button_text) buttonText = getString(attr)
+                //if (attr == R.styleable.TitleButton_android_textViewStyle) titleText = getSourceResourceId(attr, R.style.SmallTextStyle)
             }
         }
     }
 
-    /*var buttonBack: Drawable?
-        get() = btn.background
+    var buttonBack: ColorStateList?
+        get() = btn.backgroundTintList
         set(value) {
-            btn.background = value
-        }*/
+            btn.backgroundTintList = value
+        }
+
+    var titleText: String?
+        get() = title.text.toString()
+        set(value) {
+            title.text = value
+        }
+
+    var buttonText: String?
+        get() = btn.text.toString()
+        set(value) {
+            btn.text = value
+        }
 
 }
