@@ -2,6 +2,7 @@
 <resources>
 
     <attr name="widget.TextView.small" format="reference" />
+    <attr name="widget.Button.default" format="reference" />
     <attr name="mainLayoutMargin" format="dimension" />
     
     <!-- compound view defStyleAttrs -->

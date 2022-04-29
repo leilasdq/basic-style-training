@@ -12,7 +12,7 @@
         android:text="test"/>
 
     <Button
-        android:backgroundTint="@color/titled_button_background"
+        android:theme="?widget.Button.default"
         android:id="@+id/btn_compound_title_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
