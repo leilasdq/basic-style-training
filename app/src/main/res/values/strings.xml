@@ -7,4 +7,5 @@
     <string name="title_test_two">Test no.2</string>
     <string name="title_default_btn_text">default one</string>
     <string name="title_yellow_btn_text">yellow one</string>
+    <string name="title_switch_theme">Switch theme</string>
 </resources>
