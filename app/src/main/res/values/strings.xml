@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">style training</string>
 
+    <string name="title_hello">Hello World!</string>
     <string name="title_smaller_text">I Am smaller one</string>
     <string name="title_test_one">Test no.1</string>
     <string name="title_test_two">Test no.2</string>
