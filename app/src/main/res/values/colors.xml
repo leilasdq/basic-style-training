@@ -10,4 +10,6 @@
     <color name="red">#B51E1E</color>
     <color name="blue">#0F4E80</color>
     <color name="yellow">#FFEB3B</color>
+    <color name="color_background">#CBCCCC</color>
+    <color name="color_toolbar">#FFFFFF</color>
 </resources>
