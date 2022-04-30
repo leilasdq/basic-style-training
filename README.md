@@ -10,3 +10,5 @@ There is a compound view contains a text with default text style and a button be
 There is also 2dlifferent theme with different background and text colors. Them can be change by click on a desired button.
 
 Things are managed in themes extended from a base theme that contains common colors.
+
+There is also an attrebute that set to default margin (8dp)
